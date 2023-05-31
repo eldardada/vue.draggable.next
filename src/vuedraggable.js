@@ -83,6 +83,10 @@ const draggableComponent = defineComponent({
 
   emits,
 
+  compatConfig: {
+    MODE: 3
+  },
+
   data() {
     return {
       error: false
